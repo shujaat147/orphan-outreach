@@ -1,0 +1,378 @@
+@media (min-width: 1400px) {
+    .navbar .logo {
+        width: 250px;
+    }
+
+    .navbar .dropdown-menu {
+        width: 250px;
+        padding-block: 10px;
+    }
+
+    .navbar .dropdown-menu .dropdown-item {
+        text-transform: uppercase;
+        white-space: wrap;
+    }
+
+    .navbar hr {
+        margin: 0px;
+        padding: 0px;
+        border-color: aliceblue;
+    }
+
+    .navbar .dropdown .dropdown-item:hover,
+    .navbar .dropdown .dropdown-item:focus {
+        background: #1a667a;
+        opacity: 0.8;
+    }
+
+    .navbar .dis {
+        padding-top: 10px;
+    }
+
+    .navbar .navbar-nav .dropdown-menu::before {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: -8px;
+        left: 10%;
+        z-index: 1;
+        background-color: inherit;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .navbar .button {
+        color: white;
+        background-color: var(--bg-col-2);
+        border-radius: 0px;
+        padding: 10px 20px;
+        font-weight: 600;
+    }
+
+    .navbar .button:hover {
+        background-color: var(--bg-col-3);
+    }
+
+    .navbar .dropdown-menu {
+        background-color: #1a667a;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 1399.98px) {
+    .navbar {
+        max-height: 100%;
+        padding: 0px;
+    }
+
+    .navbar .logo{
+        padding-left: 20px;
+    }
+
+    .navbar .navbar-nav{
+        width: 100%;
+        position: relative;
+    }
+
+    nav .container-fluid{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar .nav-item{
+        background-color: #1a667a;
+    }
+
+    .navbar .nav-item:last-child{
+        background-color: #c2744f;
+    }
+
+    .navbar .nav-item:last-child:hover{
+        background-color: var(--bg-col-3);
+    }
+
+    .navbar .navbar-nav{
+        text-align: right;
+    }
+
+    .navbar .nav-link{
+        color: white;
+        border-bottom: 1px solid rgb(167, 222, 236,0.2);
+        margin-right: 20px;
+    }
+
+    .navbar .dropdown-menu{
+        text-align: right;
+        border: none;
+    }
+
+    .navbar .dropdown-menu hr{
+        display: none;
+    }
+
+    .navbar .dropdown-item:hover,
+    .navbar .dropdown-item:focus{
+        background-color: #1a667a;
+        color: #1a667a;
+    }
+
+    .navbar .btn{
+        font-weight: 600;
+        color: white;
+    }
+
+}
+
+/* =======================
+  Common Media Css Starts
+======================= */
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+
+    .wrap br{
+        display: block;
+    }
+
+    .wrap .btn{
+        margin-left: 0px;
+    }
+
+    .wrap li{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar .navbar-brand{
+        margin-right: 0px;
+    }
+
+    .navbar .logo{
+        width: 50%;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .banner .banner-top-btn button {
+        font-size: 18px;
+        padding: 15.2px 18.2px !important;
+    }
+
+    .sponser .sponser-heading h2 {
+        font-size: 26px;
+        line-height: 43px;
+    }
+
+    .sponser .sponser-middle {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .sponser .sponser-middle .sponser-middle-item h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .why-spon h2,
+    .ready h2,
+    .would .would-right .would-right-top h2,
+    .involved .involved-heading h2,
+    .program .program-heading h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .why-spon p,
+    .why-spon h4,
+    .ready p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .would .would-left img {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .would .would-right .would-right-top {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .would .would-right .would-right-top p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .would .would-right .would-right-top a {
+        font-size: 18px;
+        line-height: 65px;
+        padding: 0 20px;
+    }
+
+    .would .would-right .would-right-bottom h3 {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .would .would-right .would-right-bottom form {
+        padding-right: 0;
+    }
+
+    .would .would-right .would-right-bottom select {
+        line-height: 46px;
+        font-size: 14px;
+    }
+
+    .would .would-right .would-right-bottom button {
+        font-size: 18px;
+        padding: 0 17px;
+        line-height: 55px;
+    }
+
+    .involved .involved-card .involved-card-item h3 {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .involved .involved-card .involved-card-item p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* ====================
+  Common Media Css Ends
+=================== */
+
+/* ==========================
+   Extra Small Device Starts
+=========================== */
+
+@media only screen and (max-width: 575px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+/* ==========================
+   Extra Small Device Ends
+=========================== */
+
+/* =====================
+    Medium Device Starts
+==================== */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner h2 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+
+    .banner p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .sponser .sponser-middle .sponser-middle-item h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .sponser .sponser-middle .sponser-middle-item p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .why-spon h2,
+    .ready h2,
+    .would .would-right .would-right-top h2,
+    .involved .involved-heading h2,
+    .program .program-heading h2 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+
+    .why-spon p,
+    .why-spon h4 .ready p {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .would .would-right .would-right-top p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .would .would-right .would-right-top a {
+        font-size: 19px;
+        line-height: 70px;
+    }
+
+    .would .would-right .would-right-bottom h3 {
+        font-size: 29px;
+        line-height: 43px;
+    }
+
+    .would .would-right .would-right-bottom form {
+        padding-right: 0;
+    }
+
+    .would .would-right .would-right-bottom select {
+        font-size: 16px;
+        line-height: 45px;
+    }
+
+    .would .would-right .would-right-bottom button {
+        font-size: 19px;
+        padding: 0 30px;
+        line-height: 70px;
+    }
+
+    .involved .involved-card .involved-card-item h3 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .involved .involved-card .involved-card-item p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .program .program-content .program-content-right h4 {
+        font-size: 29px;
+        line-height: 43px;
+    }
+}
+
+/* ====================
+    Medium Device Ends
+=================== */
+
+/* =====================
+    Large Device Starts
+==================== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .would .would-right .would-right-bottom form {
+        padding-right: 0;
+    }
+}
+
+/* ====================
+    Large Device Ends
+=================== */
